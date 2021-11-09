@@ -1,0 +1,45 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.btn-terms-conditions {
+    margin-bottom: 2rem;
+    color: #1a3d98 !important;
+    font-size: 1.5rem;
+    border-bottom: none !important;
+    text-transform: none;
+}
+
+div#tableMyPoints {
+    max-height: 700px;
+    overflow-y: auto;
+}
+
+.content-title-points {
+  text-align: center;
+  cursor: pointer;
+}
+.title-points {
+  color: #1a3d98;
+  font-size: 1rem;
+  line-height: 0.5;
+}
+strong#my-total-points {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.main-page-wrapper {
+    padding-top: 0 !important;
+}
+.site-content {
+    margin-bottom: 0px !important;
+}
+div#imgPrefooter .wpb_single_image.wpb_content_element.vc_align_center {
+    margin-bottom: 0;
+}
+div#mainContentEvent .wpb_text_column.wpb_content_element {
+    margin-bottom: 0;
+}
+div.style-info {
+    padding: 5px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

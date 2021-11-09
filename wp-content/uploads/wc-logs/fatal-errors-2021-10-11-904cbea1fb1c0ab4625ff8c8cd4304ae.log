@@ -1,0 +1,24 @@
+2021-10-11T14:06:52+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/forge/virtualpm.creategicalatina.com/wp-content/plugins/custom-login/custom-login.php:143
+Stack trace:
+#0 /home/forge/virtualpm.creategicalatina.com/wp-includes/class-wp-hook.php(303): cl_check_login()
+#1 /home/forge/virtualpm.creategicalatina.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /home/forge/virtualpm.creategicalatina.com/wp-includes/plugin.php(518): WP_Hook->do_action()
+#3 /home/forge/virtualpm.creategicalatina.com/wp-includes/class-wp.php(763): do_action_ref_array()
+#4 /home/forge/virtualpm.creategicalatina.com/wp-includes/functions.php(1291): WP->main()
+#5 /home/forge/virtualpm.creategicalatina.com/wp-blog-header.php(16): wp()
+#6 /home/forge/virtualpm.creategicalatina.com/index.php(17): require('/home/forge/vir...')
+#7 {main}
+  thrown en /home/forge/virtualpm.creategicalatina.com/wp-content/plugins/custom-login/custom-login.php en la línea 143
+
+2021-10-11T14:07:26+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/forge/virtualpm.creategicalatina.com/wp-content/plugins/custom-login/custom-login.php:68
+Stack trace:
+#0 /home/forge/virtualpm.creategicalatina.com/wp-content/plugins/custom-login/custom-login.php(92): new_user()
+#1 /home/forge/virtualpm.creategicalatina.com/wp-content/plugins/custom-login/custom-login.php(147): login_user()
+#2 /home/forge/virtualpm.creategicalatina.com/wp-includes/class-wp-hook.php(303): cl_check_login()
+#3 /home/forge/virtualpm.creategicalatina.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#4 /home/forge/virtualpm.creategicalatina.com/wp-includes/plugin.php(518): WP_Hook->do_action()
+#5 /home/forge/virtualpm.creategicalatina.com/wp-includes/class-wp.php(763): do_action_ref_array()
+#6 /home/forge/virtualpm.creategicalatina.com/wp-includes/functions.php(1291): WP->main()
+#7 /home/forge/virtualpm.creategicalatina.com/wp-blog-header.php(16): wp()
+#8 /home/forge/virtualpm.creategicalatina.com/index.php(17): r en /home/forge/virtualpm.creategicalatina.com/wp-content/plugins/custom-login/custom-login.php en la línea 68
+
